@@ -1,0 +1,42 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: auto;
+}
+body{
+    background: sandybrown;
+}
+.popup-enter-reg{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    padding: 30px;
+    position: relative;
+    transition: .5s all;
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.5);
+    height: 200px;
+    width: 400px;
+  background-color: white;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 17%;
+  }
+  .popup-enter-reg .input-enter-reg{
+    display: block;
+    width: 100%;
+    border: none;
+    height: 15%;
+    margin-top: 5%;
+    outline: auto;
+   padding: 2%;
+   margin-left: -1.5%;
+  }
+  
+  .submit-enter-reg{
+    background: white;
+    cursor: pointer;
+    outline: auto;
+    margin-top: 10%;
+  margin-left: 35%;
+  }
+  

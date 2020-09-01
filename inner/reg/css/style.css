@@ -1,0 +1,45 @@
+body{
+background-color: sandybrown;
+}
+.wrapper-reg{
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif ;
+margin-top: 15% ;
+
+}
+.popup-reg{
+  display: block;
+  margin: 0 auto;
+  color: white;
+  padding: 6%;
+  transition: .5s all;
+  box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.5);
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  border-radius: 50px;
+  
+}
+.popup-reg .input-reg{
+  display: block;
+  width: 100%;
+  border: none;
+  line-height: 25px;
+  margin-top: 4%;
+  margin-left: -1.5%;
+  outline: auto;
+  padding: 2%;
+  cursor: pointer;
+  text-align: center;
+  flex-direction: column;
+}
+
+.submit-reg{
+  display: flex;
+  background: white;
+  cursor: pointer;
+  outline: auto;
+  margin-left:39% ;
+  margin-top: 10%;
+}
