@@ -16,6 +16,7 @@ body{
     display: flex;
     height: 940px;
       font-family: 'Montserrat', sans-serif;
+      background-image: url(../img/kelvin_17_12385_oboi_skin_avtomata_cs_go_1920x1080.png);
 
   }
   .square {
@@ -25,7 +26,10 @@ body{
     background-color: white;
     margin: auto;
     border-radius: 50px;
+    opacity: 0;
     transition: .5s all;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
   box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.5);
   }
   .picture{
@@ -34,7 +38,7 @@ body{
       width: 50px;
       margin-left: 20px;
       margin-top: 30px;
-      transition: .5s all;
+      /* transition: .5s all; */
   }
   .vk{  
   display: flex;
@@ -49,7 +53,7 @@ body{
   text-align: center;
   justify-content: center;
   text-decoration-line: none;
-  transition: .5s all;
+  /* transition: .5s all; */
   }
   
   
@@ -65,7 +69,7 @@ body{
     color: white;
    justify-content: center;
    text-decoration-line: none;
-   transition: .5s all;
+   /* transition: .5s all; */
   }
   .steam{
     display: flex;
@@ -79,7 +83,7 @@ body{
     color: white;
     justify-content: center;
     text-decoration-line: none;
-    transition: .5s all;
+    /* transition: .5s all; */
   } 
   
   .join{
@@ -87,7 +91,7 @@ body{
     justify-content: center;
     color: orange;
     text-decoration-line: none;
-    transition: .5s all;
+    /* transition: .5s all; */
   }
   .register{
     color: orange;
@@ -95,5 +99,15 @@ body{
     justify-content: center;
     margin-top: 15px;
     text-decoration-line: none;
-    transition: .5s all;
+    /* transition: .5s all; */
   }
+
+
+  @keyframes show{
+    100%{
+    opacity:1;
+    }
+    100% {
+    opacity:1;
+    }
+    }

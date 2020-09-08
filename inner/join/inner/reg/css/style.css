@@ -1,45 +1,69 @@
-body{
-background-color: sandybrown;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
-.wrapper-reg{
+.ne-header{
+background: sandybrown;
+}
+.wrapper{
   max-width: 500px;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif ;
-margin-top: 15% ;
-
+  font-family: Arial;
 }
-.popup-reg{
-  display: block;
-  margin: 0 auto;
-  color: white;
-  padding: 6%;
-  transition: .5s all;
+
+.ne-header{
+  display: flex;
+  height: 940px;
+    font-family: 'Montserrat', sans-serif;
+background-image: url(../img/kelvin_17_12385_oboi_skin_avtomata_cs_go_1920x1080.png);
+}
+.square {
   box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.5);
-  height: 300px;
+  height: 40%;
   width: 400px;
   background-color: white;
+  margin: auto;
   border-radius: 50px;
-  
+  opacity: 0;
+  transition: .5s all;
+  animation: show 3s 1;
+  animation-fill-mode: forwards;
+box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.5);
 }
-.popup-reg .input-reg{
-  display: block;
-  width: 100%;
-  border: none;
-  line-height: 25px;
-  margin-top: 4%;
-  margin-left: -1.5%;
-  outline: auto;
-  padding: 2%;
-  cursor: pointer;
-  text-align: center;
-  flex-direction: column;
+.form-group{
+  display: flex;
+  margin-top: 8%;
+  width: 90%;
+  margin-left:5% ;
+}
+.btn{
+  margin-left:27%;
+
 }
 
-.submit-reg{
+.join{
   display: flex;
-  background: white;
-  cursor: pointer;
-  outline: auto;
-  margin-left:39% ;
-  margin-top: 10%;
+  justify-content: center;
+  color: orange;
+  text-decoration-line: none;
+  /* transition: .5s all; */
 }
+.register{
+  color: orange;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  text-decoration-line: none;
+  /* transition: .5s all; */
+}
+
+
+@keyframes show{
+  100%{
+  opacity:1;
+  }
+  100% {
+  opacity:1;
+  }
+  }
